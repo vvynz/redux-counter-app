@@ -14,8 +14,8 @@ function App() {
   };
 
   const addBy = () => {
-    
-  }
+    dispatch({ type: "ADD", payload: 10 });
+  };
 
   return (
     <div>
