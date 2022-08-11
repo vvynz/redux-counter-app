@@ -6,12 +6,12 @@ function App() {
   const dispatch = useDispatch();
 
   const increment = () => {
-dispatch({type: "INC"})
-  }
+    dispatch({ type: "INC" });
+  };
 
   const decrement = () => {
-
-  }
+    dispatch({ type: "DEC" });
+  };
 
   return (
     <div>
